@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
+
+.header {
+  background-color: aquamarine;
+  padding: 15px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: aquamarine;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.partners {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.partners .logos img {
+  width: 100px;
+  margin: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.features .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 80%;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+.feature {
+  flex: 1;
+  max-width: 45%;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .features .container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+  }
+
+  .feature {
+    max-width: 100%;
+  }
+}
+
+.team {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.member img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
